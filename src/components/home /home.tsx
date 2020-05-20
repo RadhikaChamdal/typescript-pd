@@ -1,7 +1,7 @@
 import React from "react";
 import { StyledH1, StyledH2 } from "./home.styled";
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <header className="App-header">
@@ -12,4 +12,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

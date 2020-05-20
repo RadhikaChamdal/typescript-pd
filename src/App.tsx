@@ -1,11 +1,17 @@
 import React from "react";
+import { Router } from "@reach/router";
+import Home from "./components/home /home";
+import About from "./components/about/about";
 
-function home() {
+function App() {
   return (
     <div>
-      <p>Hi</p>
+      <Router>
+        <Home path="/" />
+        <About path="about" />
+      </Router>
     </div>
   );
 }
 
-export default home;
+export default App;
