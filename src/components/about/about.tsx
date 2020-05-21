@@ -1,7 +1,10 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import Nav from "../navBar/navBar";
+import { RouteComponentProps } from "@reach/router";
 
-const About = () => (
+export type AboutPageProps = {} & RouteComponentProps;
+
+const About: FunctionComponent<AboutPageProps> = () => (
   <div>
     <Nav />
     About
