@@ -1,19 +1,19 @@
 import styled from "styled-components";
 
-export const nav = styled.div`
-  display: flex;
-  justify-content: space-around;
-  text-decoration: none;
-  padding: 0px;
-  background: #b3e8c1;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 110%;
+export const StyledNav = styled.div`
+display: flex;
+justify - content: space - around;
+text - decoration: none;
+padding: 0px;
+background: #ffffff;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+width: 110 %;
 `;
 
-export const List = styled.ul`
+export const StyledUl = styled.ul`
   display: flex;
   font-family: "Roboto"
   font-size: large;
@@ -24,4 +24,15 @@ export const List = styled.ul`
   text-decoration: none;
   margin-top: 10px;
   margin-right: auto;
+`;
+export const StyledLi = styled.li`
+  // font-color: #ffffff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  color: #ffffff;
+
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 30px;
+  display: block;
 `;

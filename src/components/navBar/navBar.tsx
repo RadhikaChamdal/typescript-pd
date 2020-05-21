@@ -1,28 +1,22 @@
 import React from "react";
-// import { Link } from "@reach/router";
-// // import "./navBar.styled";
+import { Link } from "@reach/router";
+import { StyledLi, StyledNav, StyledUl } from "./navBar.styled";
+import "./navBar.styled";
 
 function Nav() {
   return (
-    <div>
-      <h2>Hi</h2>
-    </div>
+    <StyledNav>
+      <StyledUl>
+        <b> TYPESCRIPT </b>
+        <Link to="/">
+          <StyledLi>Home</StyledLi>
+        </Link>
+        <Link to="about">
+          <StyledLi>about</StyledLi>
+        </Link>
+      </StyledUl>
+    </StyledNav>
   );
 }
-// function Nav() {
-//   return (
-//     // <nav>
-//     //   <List>
-//     //     <b> TYPESCRIPT </b>
-//     //     <Link to="/">
-//     //       <li>Home</li>
-//     //     </Link>
-//     //     <Link to="about">
-//     //       <li>about</li>
-//     //     </Link>
-//     //   </List>
-//     // </nav>
-//   );
-// }
 
 export default Nav;
