@@ -8,6 +8,8 @@ export type HomePageProps = {} & RouteComponentProps;
 
 const Home: FunctionComponent<HomePageProps> = () => (
   <div className="App">
+    <br />
+    <br />
     <header className="App-header">
       <StyledH1>Welcome to Typescript</StyledH1>
       <StyledH2> A guide to learn Typescript </StyledH2>
