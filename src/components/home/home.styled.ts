@@ -1,9 +1,9 @@
 import styled from "styled-components";
-import { Pink, White } from "../../constants/colors";
+import { Orange, White } from "../../constants/colors";
 import "../../App.css";
 
 export const StyledH1 = styled.h1`
-  color: ${Pink};
+  color: ${Orange};
   font-size: 50px;
   font-family: Roboto;
   text-align: center;

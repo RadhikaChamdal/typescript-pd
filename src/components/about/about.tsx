@@ -1,11 +1,14 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
+import Nav from "../navBar/navBar";
+import { RouteComponentProps } from "@reach/router";
 
-function About() {
-  return (
-    <div>
-      <h1>Hello</h1>
-    </div>
-  );
-}
+export type AboutPageProps = {} & RouteComponentProps;
+
+const About: FunctionComponent<AboutPageProps> = () => (
+  <div>
+    <Nav />
+    About
+  </div>
+);
 
 export default About;
