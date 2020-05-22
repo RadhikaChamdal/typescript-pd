@@ -21,11 +21,7 @@ export const TableHeader = styled.th`
   text-size: 20px
   text-align: left;
   background-color: ${lightGrey};
-    border-collapse:separate;
- 
-
- 
-`;
+  `;
 
 export const TableDescription = styled.td`
   color: white;
