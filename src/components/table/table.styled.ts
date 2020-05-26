@@ -5,12 +5,15 @@ export const Table = styled.table`
   margin: 0 auto;
   border-collapse: seperate;
   border-spacing: 0 30px;
+  table-layout: auto;
+  width: 1000px;
 `;
 
 export const TableRow = styled.tr`
   color: #ffffff;
   font-size: 25px;
   text-align: center;
+
 
   }
 `;
@@ -28,4 +31,5 @@ export const TableDescription = styled.td`
   text-size: 30px;
   border-bottom: 1px solid #ddd;
   border-collapse: separate;
+  width: 1000px;
 `;

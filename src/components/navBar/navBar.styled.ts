@@ -14,9 +14,9 @@ right: 0;
 width: 110 %;
 `;
 
-export const StyledB = styled.b`
+export const Title = styled.li`
   color: ${Orange};
-  margin-right: 18px;
+  text-align: start;
   font-size: 25px;
 `;
 
@@ -34,9 +34,8 @@ export const StyledLi = styled.li`
   font-size: 18px;
   color: #ffffff;
   text-decoration: none;
-  text-align: center;
+  text-align: start;
   padding: 15px 30px;
-  display: block;
   &:hover {
     background-color: ${Orange};
     color: white;
