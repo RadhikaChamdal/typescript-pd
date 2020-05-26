@@ -7,7 +7,7 @@ function Nav() {
   return (
     <StyledNav>
       <StyledUl>
-        <Title>TYPESCRIPT</Title>
+        <Title>TYPESCRIPT/JAVASCRIPT</Title>
         <StyledLi>
           <Link to="/" style={{ textDecoration: "none" }}>
             Home

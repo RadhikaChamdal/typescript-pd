@@ -6,7 +6,7 @@ function TableInfo() {
     <div>
       <Table>
         <TableRow>
-          <TableHeader>TYPES</TableHeader>
+          <TableHeader>CORE TYPES</TableHeader>
 
           <TableHeader>EXAMPLES</TableHeader>
 

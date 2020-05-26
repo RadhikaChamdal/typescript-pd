@@ -6,13 +6,14 @@ export const Table = styled.table`
   border-collapse: seperate;
   border-spacing: 0 30px;
   table-layout: auto;
-  width: 1000px;
+  width: 1020px;
 `;
 
 export const TableRow = styled.tr`
   color: #ffffff;
   font-size: 25px;
   text-align: center;
+
 
 
   }
@@ -22,8 +23,9 @@ export const TableHeader = styled.th`
   padding-top: 5px;
   padding-bottom: 5px;
   text-size: 20px
-  text-align: left;
+  text-align: center;
   background-color: ${lightGrey};
+
   `;
 
 export const TableDescription = styled.td`
@@ -31,5 +33,4 @@ export const TableDescription = styled.td`
   text-size: 30px;
   border-bottom: 1px solid #ddd;
   border-collapse: separate;
-  width: 1000px;
 `;

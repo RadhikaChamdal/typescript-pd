@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Orange, lightGrey } from "../../constants/colors";
+import { Orange, lightGrey, White } from "../../constants/colors";
 
 export const StyledNav = styled.div`
 display: flex;
@@ -32,12 +32,11 @@ export const StyledUl = styled.ul`
 export const StyledLi = styled.li`
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
-  color: #ffffff;
+  color: ${White}
   text-decoration: none;
-  text-align: start;
+  margin-left: 15px;
   padding: 15px 30px;
   &:hover {
     background-color: ${Orange};
-    color: white;
   }
 `;
