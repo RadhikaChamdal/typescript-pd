@@ -1,5 +1,6 @@
 import styled from "styled-components";
-import { Orange, lightGrey } from "../../constants/colors";
+import { Orange, lightGrey, White } from "../../constants/colors";
+
 export const StyledNav = styled.div`
 display: flex;
 justify - content: space - around;
@@ -13,9 +14,9 @@ right: 0;
 width: 110 %;
 `;
 
-export const StyledB = styled.b`
+export const Title = styled.li`
   color: ${Orange};
-  margin-right: 18px;
+  text-align: start;
   font-size: 25px;
 `;
 
@@ -31,13 +32,14 @@ export const StyledUl = styled.ul`
 export const StyledLi = styled.li`
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
-  color: #ffffff;
+  color: ${White};
   text-decoration: none;
-  text-align: center;
+  margin-left: 15px;
   padding: 15px 30px;
-  display: block;
+  a {
+    color: ${White};
+  }
   &:hover {
     background-color: ${Orange};
-    color: white;
   }
 `;

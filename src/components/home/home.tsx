@@ -1,19 +1,18 @@
 import React, { FunctionComponent } from "react";
 import { RouteComponentProps } from "@reach/router";
-// import Nav from "../navBar/navBar";
 import { StyledH1, StyledH2 } from "./home.styled";
+import TableInfo from "../table/table";
 import "../../App.css";
 
 export type HomePageProps = {} & RouteComponentProps;
 
 const Home: FunctionComponent<HomePageProps> = () => (
   <div className="App">
-    <br />
-    <br />
-    <header className="App-header">
-      <StyledH1>Welcome to Typescript</StyledH1>
-      <StyledH2> A guide to learn Typescript </StyledH2>
+    <header className="App-header" style={{ marginTop: "2rem" }}>
+      <StyledH1>Welcome to Typescript/Javascript</StyledH1>
+      <StyledH2> A guide to learn the fundamentals of each language! </StyledH2>
     </header>
+    <TableInfo></TableInfo>
   </div>
 );
 
