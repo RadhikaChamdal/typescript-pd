@@ -1,7 +1,7 @@
 import React from "react";
 import { Router } from "@reach/router";
 import Home from "./components/home/home";
-import About from "./components/about/about";
+import Arrays from "./components/arrays/arrays";
 import Nav from "./components/navBar/navBar";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Nav />
       <Router>
         <Home path="/" />
-        <About path="about" />
+        <Arrays path="Arrays" />
       </Router>
     </div>
   );

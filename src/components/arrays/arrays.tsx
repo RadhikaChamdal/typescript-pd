@@ -2,13 +2,13 @@ import React, { FunctionComponent } from "react";
 import Nav from "../navBar/navBar";
 import { RouteComponentProps } from "@reach/router";
 
-export type AboutPageProps = {} & RouteComponentProps;
+export type ArraysPageProps = {} & RouteComponentProps;
 
-const About: FunctionComponent<AboutPageProps> = () => (
+const Arrays: FunctionComponent<ArraysPageProps> = () => (
   <div>
     <Nav />
     About
   </div>
 );
 
-export default About;
+export default Arrays;
