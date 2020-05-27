@@ -1,13 +1,14 @@
 import React, { FunctionComponent } from "react";
-import Nav from "../navBar/navBar";
 import { RouteComponentProps } from "@reach/router";
+import { StyledH1 } from "../arrays/arrays.styled";
 
 export type ArraysPageProps = {} & RouteComponentProps;
 
 const Arrays: FunctionComponent<ArraysPageProps> = () => (
   <div>
-    <Nav />
-    About
+    <header>
+      <StyledH1>hi </StyledH1>
+    </header>
   </div>
 );
 
