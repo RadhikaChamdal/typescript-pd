@@ -7,7 +7,7 @@ export type ArraysPageProps = {} & RouteComponentProps;
 const Arrays: FunctionComponent<ArraysPageProps> = () => (
   <div>
     <header>
-      <StyledH1>hi </StyledH1>
+      <StyledH1> </StyledH1>
     </header>
   </div>
 );

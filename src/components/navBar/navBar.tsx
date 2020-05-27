@@ -18,6 +18,11 @@ function Nav() {
             Arrays
           </Link>
         </StyledLi>
+        <StyledLi>
+          <Link to="Challenges" style={{ textDecoration: "none" }}>
+            Challenges
+          </Link>
+        </StyledLi>
       </StyledUl>
     </StyledNav>
   );
