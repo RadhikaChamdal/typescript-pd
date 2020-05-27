@@ -59,6 +59,11 @@ function TableInfo() {
         </tr>
         <tr>
           <TableDescription>ANY </TableDescription>
+          <TableDescription> * </TableDescription>
+          <TableDescription>
+            Avoid, but when used, can use for any value no specific type
+            assignment
+          </TableDescription>
         </tr>
       </Table>
     </div>

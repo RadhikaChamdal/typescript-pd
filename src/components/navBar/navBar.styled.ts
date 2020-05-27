@@ -32,10 +32,13 @@ export const StyledUl = styled.ul`
 export const StyledLi = styled.li`
   font-family: "Roboto Mono", monospace;
   font-size: 18px;
-  color: ${White}
+  color: ${White};
   text-decoration: none;
   margin-left: 15px;
   padding: 15px 30px;
+  a {
+    color: ${White};
+  }
   &:hover {
     background-color: ${Orange};
   }
