@@ -14,8 +14,13 @@ function Nav() {
           </Link>
         </StyledLi>
         <StyledLi>
-          <Link to="about" style={{ textDecoration: "none" }}>
-            About
+          <Link to="Arrays" style={{ textDecoration: "none" }}>
+            Arrays
+          </Link>
+        </StyledLi>
+        <StyledLi>
+          <Link to="Challenges" style={{ textDecoration: "none" }}>
+            Challenges
           </Link>
         </StyledLi>
       </StyledUl>
