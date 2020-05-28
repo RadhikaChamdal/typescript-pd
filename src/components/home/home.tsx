@@ -9,17 +9,17 @@ export type HomePageProps = {} & RouteComponentProps;
 
 const Home: FunctionComponent<HomePageProps> = () => (
   <div className="App">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    ></link>
     <header className="App-header" style={{ marginTop: "2rem" }}>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
-        rel="stylesheet"
-      ></link>
       <StyledH1>Welcome to Typescript/Javascript</StyledH1>
       <StyledH2> A guide to learn the fundamentals of each language! </StyledH2>
     </header>
     <TableInfo></TableInfo>
     <Link to="Arrays">
-      <Button> Next Page </Button>
+      <Button> Click here to go to Arrays </Button>
     </Link>
   </div>
 );
